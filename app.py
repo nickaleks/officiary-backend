@@ -21,4 +21,4 @@ def get_rating(id):
     return Rating(1, "Pidor Rating", [{"name": "pidor", "rating_value": 0.1337}, {"name": "ebaniy", "rating_value": 0.1228}]).__dict__
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=80)
