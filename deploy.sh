@@ -1,3 +1,3 @@
 #!/usr/bin/bash
-git pull
+git poop
 python3 app.py &
